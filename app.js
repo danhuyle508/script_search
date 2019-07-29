@@ -9,7 +9,7 @@
     button.textContent = 'Script Search';
     button.className = 'btn btn-sm';
     document.body
-      .getElementsByClassName( '.neptune-grid' )[ 0 ]
+      .getElementsByClassName( '.search-filters-bar--jobs-search' )[ 0 ]
       .appendChild( button );
     
     button.onclick = function (){
